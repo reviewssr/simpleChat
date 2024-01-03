@@ -1,1 +1,1 @@
-# simpleChat
+# GemeniAi

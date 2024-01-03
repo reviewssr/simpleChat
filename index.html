@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="shortcut icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="utils/main.css" />
+    <!-- 引入 Prism.js 的核心文件 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+    <!-- 引入所需的语言扩展，比如 JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-javascript.min.js"></script>
+    <!-- 引入所需的主题 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <title>Generative AI - Chat</title>
+  </head>
+
+  <body>
+    <header>Generative AI - Chat</header>
+    <div class="container">
+      <div id="chat-history"></div>
+    </div>
+    <div class="form-container">
+      <form id="form">
+        <input id="prompt" autocomplete="off"/>
+        <button type="submit">Send</button>
+      </form>
+      <template id="thumb-template">
+        <img class="thumb" />
+      </template>
+    </div>
+    <script type="module"  src="./index.js"></script>
+  </body>
+</html>
