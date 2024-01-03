@@ -79,8 +79,8 @@ http
       res.end();
     }
   })
-  .listen(parseInt(Config.PORT));
+  .listen(Config.PORT);
 
 console.log(
-  `Server listening. Pages:\n - http://localhost:${Config.PORT}\n - http://localhost:${Config.PORT}/chat.html`,
+  `Server listening. Pages:\n - http://localhost:${Config.PORT}\n - http://localhost:${Config.PORT}/image.html`,
 );
